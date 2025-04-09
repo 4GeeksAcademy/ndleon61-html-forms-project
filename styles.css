@@ -3,3 +3,7 @@
     padding: 0;
     border: none;
 }
+#payment-option{
+    width: 300px;
+    height: 30px;
+}
