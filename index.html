@@ -13,6 +13,9 @@
                 <div class="card-header">
                   <h1>Payment Form Example</h1>
                 </div>
+                <div class="alert m-3 5" role="alert" style="background: rgb(251, 206, 206); color: rgb(118, 0, 0);">
+                    Some fields are missing
+                </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     <div class="container">
@@ -27,7 +30,7 @@
                             </div>
                             <div class= "col">
                                 <label for="amount" class="form-label">Amount</label>
-                                <div class="input-group-text" id="form-amount">
+                                <div class="input-group-text bg-white p-0 border-none" id="form-amount">
                                     <span class="input-group-text">$</span>
                                     <input type="text" class="form-control" id="amount" placeholder="Amount">
                                     <span class="input-group-text">.00</span>
@@ -118,25 +121,25 @@
                                         <div class="form-check-inline">
                                             <input class="form-check-input" type="radio" name="mastercard" id="mastercard">
                                             <label class="form-check-label" for="radioDefault1">
-                                                <i class="fa-brands fa-cc-mastercard fa-sm"></i>
+                                                <i class="fa-brands fa-cc-mastercard fa-sm" style="color: white;"></i>
                                             </label>
                                         </div>
                                         <div class="form-check-inline">
                                             <input class="form-check-input" type="radio" name="visa" id="visa">
                                             <label for="visa" class="form-check-label">
-                                                <i class="fa-brands fa-cc-visa fa-sm"></i>
+                                                <i class="fa-brands fa-cc-visa fa-sm" style="color: white;"></i>
                                             </label>
                                         </div>
                                         <div class="form-check-inline">
                                             <input type="radio" class="form-check-input" name="amex" id="amex">
                                             <label for="amex" class="form-check-label">
-                                                <i class="fa-brands fa-cc-amex fa-sm"></i>
+                                                <i class="fa-brands fa-cc-amex fa-sm" style="color: white;"></i>
                                             </label>
                                         </div>
                                         <div class="form-check-inline">
                                             <input type="radio" class="form-check-input" name="discover" id="discover">
                                             <label for="discover" class="form-check-label">
-                                                <i class="fa-brands fa-cc-discover fa-sm"></i>
+                                                <i class="fa-brands fa-cc-discover fa-sm" style="color: white;"></i>
                                             </label>
                                         </div>
 
@@ -151,8 +154,8 @@
                     </div>
                   </li>    
                 </ul>
-                <div class="card-footer ms-auto">
-                    <button class="btn btn-secondary" type="button">Cancel</button>
+                <div class="card-footer d-flex justify-content-end p-3">
+                    <button class="btn btn-secondary me-2" type="button">Cancel</button>
                     <button class="btn btn-primary" type="button">Send</button>
                   </div>
               </div>
